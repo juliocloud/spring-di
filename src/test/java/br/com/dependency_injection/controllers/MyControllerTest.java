@@ -1,6 +1,5 @@
-package br.com.dependency_injection;
+package br.com.dependency_injection.controllers;
 
-import br.com.dependency_injection.controllers.MyController;
 import org.junit.jupiter.api.Test;
 
 public class MyControllerTest {
