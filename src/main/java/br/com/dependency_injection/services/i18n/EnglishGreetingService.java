@@ -4,7 +4,7 @@ import br.com.dependency_injection.services.GreetingService;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
-@Profile("EN")
+@Profile({"EN", "default"})
 @Service("translationService")
 public class EnglishGreetingService implements GreetingService {
     @Override

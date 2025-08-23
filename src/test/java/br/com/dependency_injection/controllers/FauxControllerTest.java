@@ -6,19 +6,20 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 
-@ActiveProfiles({"ES", "qa"})
+import static org.junit.jupiter.api.Assertions.*;
+
 @SpringBootTest
-class MyI18NControllerTestES {
+class FauxControllerTest {
 
     @Autowired
-    MyI18NController myI18NController;
+    FauxController fauxController;
 
     @BeforeEach
     void setUp() {
     }
 
     @Test
-    void sayHello() {
-        myI18NController.sayHello();
+    void whichEnvImAt() {
+        fauxController.whichEnvImAt();
     }
 }
