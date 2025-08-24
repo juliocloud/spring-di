@@ -1,4 +1,4 @@
-package br.com.dependency_injection.controllers;
+package br.com.dependency_injection.controllers.faux;
 
 import br.com.dependency_injection.services.envMgmnt.FauxService;
 import org.springframework.beans.factory.annotation.Qualifier;

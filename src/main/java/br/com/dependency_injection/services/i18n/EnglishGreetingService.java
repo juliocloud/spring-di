@@ -1,6 +1,6 @@
 package br.com.dependency_injection.services.i18n;
 
-import br.com.dependency_injection.services.GreetingService;
+import br.com.dependency_injection.services.greetings.GreetingService;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 

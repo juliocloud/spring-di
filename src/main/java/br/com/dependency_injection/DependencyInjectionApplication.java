@@ -1,6 +1,6 @@
 package br.com.dependency_injection;
 
-import br.com.dependency_injection.controllers.FieldInjectedController;
+import br.com.dependency_injection.controllers.injections.FieldInjectedController;
 import br.com.dependency_injection.controllers.MyController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

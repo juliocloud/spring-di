@@ -1,7 +1,6 @@
-package br.com.dependency_injection.controllers;
+package br.com.dependency_injection.controllers.injections;
 
-import br.com.dependency_injection.services.GreetingService;
-import org.springframework.beans.factory.annotation.Autowired;
+import br.com.dependency_injection.services.greetings.GreetingService;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 

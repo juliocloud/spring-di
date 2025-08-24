@@ -1,4 +1,4 @@
-package br.com.dependency_injection.services;
+package br.com.dependency_injection.services.greetings;
 
 import org.springframework.stereotype.Service;
 
